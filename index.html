@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Memory Game</title>
+    <link href="./assets/styles/styles.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="title">
+            <h1 class="heading">Press Any Key to Start</h1>
+        </div>
+        <div class="square-container unclickable">
+            <div class="square green" data-square="green"> </div>
+            <div class="square red" data-square="red"> </div>
+            <div class="square yellow" data-square="yellow"> </div>
+            <div class="square blue" data-square="blue"> </div>
+        </div>
+
+    </div>
+
+    <div class="hidden">
+        <audio src="./assets/sounds/red.mp3" data-sound="red"></audio>
+        <audio src="./assets/sounds/green.mp3" data-sound="green"></audio>
+        <audio src="./assets/sounds/blue.mp3" data-sound="blue"></audio>
+        <audio src="./assets/sounds/yellow.mp3" data-sound="yellow"></audio>
+        <audio src="./assets/sounds/wrong.mp3" data-sound="wrong"></audio>
+    </div>
+</body>
+
+<script src="./assets/scripts/game.js" type="text/javascript"></script>
+
+</html>
