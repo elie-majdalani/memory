@@ -89,42 +89,6 @@ function startGame() {
   nextRound();
 }
 
-// async function getWeather() {
-//   const result = await fetch('https://api.openweathermap.org/data/2.5/weather?q=London&appid=b1b15e88fa797225412429c1c50c122a1');
-  // fetch('https://api.openweathermap.org/data/2.5/weather?q=London&appid=b1b15e88fa797225412429c1c50c122a1').then(data => {
-  //   // ahere 
-  // }).catch(error => console.log(error));
-
-//   const data = await getRandomInt()
-  
-// }
-
-// function getRandomInt(max) {
-//   return new Promise((resolve,reject)=>{
-//     if( true) reject("error")
-//     resolve(true)
-//   })
-// }
-
-// async function doAlotOfThings(){
-//   // const result1 = await fetch()
-//   // const result1 = await fetch()
-//   // const result1 = await fetch()
-//   // const result1 = await fetch()
-//   // const result1 = await fetch()
-//   // const result1 = await fetch()
-
-//   const arr = []
-
-//   arr.push(fetch(), fetch(), fetch(), fetch(), fetch(), fetch())
-
-//   const data = await Promise.all(arr)
-
-//   Promise.all(arr).then(data => {
-//     console.log(data)
-//   })
-// }
-
 
 document.addEventListener('keypress', function(){
   if(level > 0) return
