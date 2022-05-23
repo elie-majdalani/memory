@@ -1,7 +1,6 @@
 let sequence = [];
 let humanSequence = [];
 let level = 0;
-
 const heading = document.querySelector('.heading');
 const tileContainer = document.querySelector('.square-container');
 
